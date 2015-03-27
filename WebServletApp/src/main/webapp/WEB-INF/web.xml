@@ -1,0 +1,14 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         version="2.4">
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>Ch3 Beer</servlet-name>
+        <servlet-class>com.pablobastidas.servlet.BeerSelected</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ch3 Beer</servlet-name>
+        <url-pattern>/SelectBeer.do</url-pattern>
+    </servlet-mapping>
+</web-app>
+
