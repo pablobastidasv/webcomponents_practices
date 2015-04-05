@@ -11,7 +11,7 @@ import java.util.List;
 public class BeerExpert {
 
     public List<String> getBrands(String color){
-        List<String> brands = new ArrayList<>();
+        List<String> brands = new ArrayList<String>();
 
         if(color.equals("amber")){
             brands.add("Jack Amber");

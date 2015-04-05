@@ -6,6 +6,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>WebServletApp</module>
+    <module>JaasJEE</module>
   </modules>
   <packaging>pom</packaging>
   <name>webcomponent</name>
